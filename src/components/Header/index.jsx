@@ -16,7 +16,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className='w-full h-72 sm:h-96 bg-mobile-hero md:bg-desktop-hero bg-cover bg-no-repeat absolute top-0'>
+      <header className='w-full h-72 sm:h-96 bg-cover bg-no-repeat absolute top-0'>
         <div className='flex justify-between px-12 md:px-36 pt-14 relativezs z-0'>
           <img src={logo} alt="logo-img" />
           <div id='menu' className='w-60 text-white flex justify-between max-md:flex-col max-md:items-center max-md:gap-3
